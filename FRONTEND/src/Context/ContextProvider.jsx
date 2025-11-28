@@ -8,7 +8,7 @@ const ContextProvider = ({ children }) => {
 
     const navigate = useNavigate()
 
-    var url = 'http://localhost:5000'
+    var url = 'https://project-backend-fbg1.onrender.com'
 
     var [ productData, setProductData ] = useState([])
 

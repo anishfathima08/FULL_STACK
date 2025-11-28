@@ -21,7 +21,7 @@ const ContextProvider = ({children}) => {
 
     var [ productID, setProductID ] = useState('')
 
-    const url =  'http://localhost:5000'
+    const url =  'https://project-backend-fbg1.onrender.com'
 
     const productAddFun = async (e) => {
         e.preventDefault()
